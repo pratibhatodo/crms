@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	font-family: 15px/1.5 Times, Times New Roman, Georgia, serif;
+	padding: 0;
+	margin: 0;
+	background-color: lightgray;
+}
+
+/*global*/
+.container{
+	width: 80%;
+	margin: auto;
+	/*overflow: hidden;*/
+}
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 80px;
+	border-bottom: #d8d820 3px solid;
+}
+header #logo{
+	float: left;
+}
+
+header #logo h1{
+	margin: 0;
+}
+
+header .hightlight, header .current a{
+	color: #d8d820;
+	font-weight: bold;
+}
+
+header .menubar{
+	float: right;
+	margin-top: 10px;
+}
+
+header .menubar ul{
+	list-style: none;
+}
+header .menubar ul li {
+	padding: 0 20px 0px 20px;
+	float: left;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 22px;
+	z-index: 500;
+	
+}
+header .menubar ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header .menubar ul li a:hover{
+	border-bottom: 2px solid #d8d820;
+	color: #cccccc;
+	font-weight: bold;
+}
+header .menubar ul li ul li{
+	display: none;
+	float: none;
+	color: #d8d820;
+	background-color: #35424a;
+}
+
+header .menubar ul li:hover ul li{
+	display: block;
+}
+/*
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #d8d820 3px solid;
+}
+header #logo{
+	float: left;
+}
+header #logo h1{
+	margin: 0;
+}
+header .hightlight, header .current a{
+	color: #d8d820;
+	font-weight: bold;
+}
+header .menubar ul li{
+	padding: 0 20px 0px 20px;
+	float: left;
+	display: block;
+	position: relative;
+	transition-duration: 0.5s;
+	z-index: 500;
+}
+header li a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+}
+header #logo h1{
+	margin: 0;
+}
+header .menubar{
+	float: right;
+	margin-top: 10px;
+}
+header .hightlight, header .current a{
+	color: #d8d820;
+	font-weight: bold;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+	border-bottom: 2px solid #d8d820;
+}
+header .menubar #submenu{
+	float: none;
+	position: absolute;
+	display: none; 
+}
+*/
+
+@media screen and (min-width: 321px){
+ header{
+	min-height: 50px;
+}
+#social ul{
+	padding: 18px;
+}
+#social ul li a{
+	width: 38px;
+	height: 38px;
+	margin: 0 5px;
+	border-radius: 19px;
+	padding: 0px;
+}
+#social ul li a .fab{
+	line-height: calc(38px - 1px);
+	font-size: 16px;
+}
+#box-content {
+	width: 100%;
+}
+#box-content .box{
+	width: 100%;
+    padding: 20px;
+}
+#box-content .box img{
+	width: 500px;
+	border-radius: 10px;
+}
+}
